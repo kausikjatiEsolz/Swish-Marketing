@@ -17,8 +17,6 @@
 		A55BF3331E9F448C0080F15E /* ActiveCampaingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BF3321E9F448C0080F15E /* ActiveCampaingController.m */; };
 		A55BF3371E9F47F90080F15E /* ActiveCampainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BF3361E9F47F90080F15E /* ActiveCampainCell.m */; };
 		A55BF33A1E9F56810080F15E /* GmapsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BF3391E9F56810080F15E /* GmapsDemoController.m */; };
-		A5822EE51E9F8415002C6163 /* India.kml in Resources */ = {isa = PBXBuildFile; fileRef = A5822EE41E9F8415002C6163 /* India.kml */; };
-		A5822EE81E9F8456002C6163 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5822EE71E9F8456002C6163 /* KMLParser.m */; };
 		A58F35F41EA732B1001BA534 /* MainSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F35F31EA732B1001BA534 /* MainSettingsController.m */; };
 		A58F35F71EA735E0001BA534 /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F35F61EA735E0001BA534 /* SettingsCell.m */; };
 		A5B175D61E976BAA00285280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B175D51E976BAA00285280 /* main.m */; };
@@ -99,9 +97,6 @@
 		A55BF3361E9F47F90080F15E /* ActiveCampainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveCampainCell.m; sourceTree = "<group>"; };
 		A55BF3381E9F56810080F15E /* GmapsDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GmapsDemoController.h; sourceTree = "<group>"; };
 		A55BF3391E9F56810080F15E /* GmapsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GmapsDemoController.m; sourceTree = "<group>"; };
-		A5822EE41E9F8415002C6163 /* India.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = India.kml; sourceTree = "<group>"; };
-		A5822EE61E9F8456002C6163 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
-		A5822EE71E9F8456002C6163 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
 		A58F35F21EA732B1001BA534 /* MainSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSettingsController.h; sourceTree = "<group>"; };
 		A58F35F31EA732B1001BA534 /* MainSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSettingsController.m; sourceTree = "<group>"; };
 		A58F35F51EA735E0001BA534 /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
@@ -249,9 +244,6 @@
 		A5822EE31E9F83FA002C6163 /* KML fie */ = {
 			isa = PBXGroup;
 			children = (
-				A5822EE61E9F8456002C6163 /* KMLParser.h */,
-				A5822EE71E9F8456002C6163 /* KMLParser.m */,
-				A5822EE41E9F8415002C6163 /* India.kml */,
 			);
 			name = "KML fie";
 			sourceTree = "<group>";
@@ -583,7 +575,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5822EE51E9F8415002C6163 /* India.kml in Resources */,
 				A5B89AD91E976E9100BC5749 /* Main.storyboard in Resources */,
 				A5E796EB1EAF2C4600A9972C /* Land.storyboard in Resources */,
 				A5B89ADF1E976FF600BC5749 /* TwitterKitResources.bundle in Resources */,
@@ -779,7 +770,6 @@
 				A5DD68251EB86BB800C5BBFF /* CardCell.m in Sources */,
 				A550833D1E9B4DA700025449 /* Settings_Controller.m in Sources */,
 				A5B3DE4B1EBB0F7F008CC96C /* FinalAddressCell.m in Sources */,
-				A5822EE81E9F8456002C6163 /* KMLParser.m in Sources */,
 				A5B89AD01E976E9100BC5749 /* Tutotial_ViewController.m in Sources */,
 				A5B89AD61E976E9100BC5749 /* NewCampainViewController.m in Sources */,
 				A517F2F91EADCFF7005E161F /* EnterLocationController.m in Sources */,
