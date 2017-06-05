@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Crashlytics (3.1.1)
+  - Fabric (1.4.0):
+    - Fabric/Base (= 1.4.0)
+  - Fabric/Base (1.4.0)
+  - GoogleMaps (1.10.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - TwitterCore (1.9.0)
+  - TwitterKit (1.9.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Crashlytics
+  - Fabric
+  - GoogleMaps
+  - SDWebImage
+  - TwitterCore
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  Crashlytics: 39ab395565bc03c29cdecd2b9d103ebf30930c10
+  Fabric: 6d1d1c1eaf7ebc76fc3307e2c0259456411baf26
+  GoogleMaps: 5c92e599b07b0a2a9b367c5dd128edc629bddfea
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  TwitterCore: 98ed97a6047c4ef109522840337e815683ead7e5
+  TwitterKit: 1492792649dee11c2087498f7993f529bdb6c870
+
+PODFILE CHECKSUM: 259e71e237d4e22765d875d4fac8d300be2370da
+
+COCOAPODS: 1.1.1

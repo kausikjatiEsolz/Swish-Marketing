@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10404E717FE793F266DA30D1 /* libPods-Swish Marketing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F69851E36CD82513A3C1F9 /* libPods-Swish Marketing.a */; };
+		810C46459D07E1455F8C2F4D /* libPods-Swish MarketingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 265A35338363E92DCEE714A8 /* libPods-Swish MarketingUITests.a */; };
+		A503C20D1EBC3F5300F20E94 /* GMDCircleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A503C20C1EBC3F5300F20E94 /* GMDCircleLoader.m */; };
+		A517F2F91EADCFF7005E161F /* EnterLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A517F2F81EADCFF7005E161F /* EnterLocationController.m */; };
+		A547AB861E9D04EF00E3DDAF /* BusinessName_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A547AB851E9D04EF00E3DDAF /* BusinessName_Controller.m */; };
+		A550833D1E9B4DA700025449 /* Settings_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A550833C1E9B4DA700025449 /* Settings_Controller.m */; };
+		A55083401E9BB29300025449 /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = A550833F1E9BB29300025449 /* ChatController.m */; };
+		A55BF3331E9F448C0080F15E /* ActiveCampaingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BF3321E9F448C0080F15E /* ActiveCampaingController.m */; };
+		A55BF3371E9F47F90080F15E /* ActiveCampainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BF3361E9F47F90080F15E /* ActiveCampainCell.m */; };
+		A55BF33A1E9F56810080F15E /* GmapsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BF3391E9F56810080F15E /* GmapsDemoController.m */; };
+		A5822EE51E9F8415002C6163 /* India.kml in Resources */ = {isa = PBXBuildFile; fileRef = A5822EE41E9F8415002C6163 /* India.kml */; };
+		A5822EE81E9F8456002C6163 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5822EE71E9F8456002C6163 /* KMLParser.m */; };
+		A58F35F41EA732B1001BA534 /* MainSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F35F31EA732B1001BA534 /* MainSettingsController.m */; };
+		A58F35F71EA735E0001BA534 /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A58F35F61EA735E0001BA534 /* SettingsCell.m */; };
+		A5B175D61E976BAA00285280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B175D51E976BAA00285280 /* main.m */; };
+		A5B175E21E976BAA00285280 /* Swish_Marketing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5B175E01E976BAA00285280 /* Swish_Marketing.xcdatamodeld */; };
+		A5B175F21E976BAB00285280 /* Swish_MarketingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B175F11E976BAB00285280 /* Swish_MarketingTests.m */; };
+		A5B175FD1E976BAB00285280 /* Swish_MarketingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B175FC1E976BAB00285280 /* Swish_MarketingUITests.m */; };
+		A5B3DE4B1EBB0F7F008CC96C /* FinalAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B3DE4A1EBB0F7F008CC96C /* FinalAddressCell.m */; };
+		A5B89AA81E976E4D00BC5749 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B89AA51E976E4D00BC5749 /* Bolts.framework */; };
+		A5B89AA91E976E4D00BC5749 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B89AA61E976E4D00BC5749 /* FBSDKCoreKit.framework */; };
+		A5B89AAA1E976E4D00BC5749 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B89AA71E976E4D00BC5749 /* FBSDKLoginKit.framework */; };
+		A5B89ACB1E976E9100BC5749 /* Json_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AAE1E976E9100BC5749 /* Json_Class.m */; };
+		A5B89ACC1E976E9100BC5749 /* App_Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B89AAF1E976E9100BC5749 /* App_Header.xib */; };
+		A5B89ACD1E976E9100BC5749 /* App_Header.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AB11E976E9100BC5749 /* App_Header.m */; };
+		A5B89ACE1E976E9100BC5749 /* Left_Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AB31E976E9100BC5749 /* Left_Menu.m */; };
+		A5B89ACF1E976E9100BC5749 /* Left_Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B89AB41E976E9100BC5749 /* Left_Menu.xib */; };
+		A5B89AD01E976E9100BC5749 /* Tutotial_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AB61E976E9100BC5749 /* Tutotial_ViewController.m */; };
+		A5B89AD11E976E9100BC5749 /* Login_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AB81E976E9100BC5749 /* Login_ViewController.m */; };
+		A5B89AD21E976E9100BC5749 /* Initial_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89ABA1E976E9100BC5749 /* Initial_ViewController.m */; };
+		A5B89AD31E976E9100BC5749 /* Register_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89ABC1E976E9100BC5749 /* Register_ViewController.m */; };
+		A5B89AD41E976E9100BC5749 /* PromoterRegister_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89ABE1E976E9100BC5749 /* PromoterRegister_ViewController.m */; };
+		A5B89AD51E976E9100BC5749 /* Dashboard_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AC01E976E9100BC5749 /* Dashboard_Controller.m */; };
+		A5B89AD61E976E9100BC5749 /* NewCampainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AC21E976E9100BC5749 /* NewCampainViewController.m */; };
+		A5B89AD71E976E9100BC5749 /* Social_connectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AC41E976E9100BC5749 /* Social_connectController.m */; };
+		A5B89AD81E976E9100BC5749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AC61E976E9100BC5749 /* AppDelegate.m */; };
+		A5B89AD91E976E9100BC5749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B89AC71E976E9100BC5749 /* Main.storyboard */; };
+		A5B89ADA1E976E9100BC5749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B89AC81E976E9100BC5749 /* Assets.xcassets */; };
+		A5B89ADB1E976E9100BC5749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B89AC91E976E9100BC5749 /* LaunchScreen.storyboard */; };
+		A5B89ADF1E976FF600BC5749 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5B89ADE1E976FF600BC5749 /* TwitterKitResources.bundle */; };
+		A5B89AE81E977A5400BC5749 /* InstagramController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89AE71E977A5400BC5749 /* InstagramController.m */; };
+		A5BD2F711EB9B75300604A16 /* FacebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BD2F701EB9B75300604A16 /* FacebookController.m */; };
+		A5CAF1F71EB1C98B00897C02 /* ProductpictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CAF1F61EB1C98B00897C02 /* ProductpictureController.m */; };
+		A5CAF1FB1EB1C9EA00897C02 /* ProductPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CAF1FA1EB1C9EA00897C02 /* ProductPicCell.m */; };
+		A5DD681F1EB85B4000C5BBFF /* ViewReviews_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD681E1EB85B4000C5BBFF /* ViewReviews_ViewController.m */; };
+		A5DD68221EB86B5F00C5BBFF /* Crad_detailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD68211EB86B5F00C5BBFF /* Crad_detailsController.m */; };
+		A5DD68251EB86BB800C5BBFF /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD68241EB86BB800C5BBFF /* CardCell.m */; };
+		A5DDED371EA4A42000CCBB0B /* StateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDED361EA4A42000CCBB0B /* StateCell.m */; };
+		A5E796EB1EAF2C4600A9972C /* Land.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E796EA1EAF2C4600A9972C /* Land.storyboard */; };
+		A5F39D0C1EA9CE070078F3EF /* CampainDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F39D0B1EA9CE070078F3EF /* CampainDetailsController.m */; };
+		A5F39D101EA9D13B0078F3EF /* SimpleBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F39D0F1EA9D13B0078F3EF /* SimpleBarChart.m */; };
+		E0B4D0138A2277FA3D01CE20 /* libPods-Swish MarketingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF192D3017A3BA34D11CF60 /* libPods-Swish MarketingTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5B175EE1E976BAB00285280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B175C91E976BAA00285280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B175D01E976BAA00285280;
+			remoteInfo = "Swish Marketing";
+		};
+		A5B175F91E976BAB00285280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B175C91E976BAA00285280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B175D01E976BAA00285280;
+			remoteInfo = "Swish Marketing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EBA64908C454D9430FC4C9 /* Pods-Swish Marketing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swish Marketing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swish Marketing/Pods-Swish Marketing.debug.xcconfig"; sourceTree = "<group>"; };
+		18E7AFB2F1C19E7142A59CEA /* Pods-Swish Marketing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swish Marketing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swish Marketing/Pods-Swish Marketing.release.xcconfig"; sourceTree = "<group>"; };
+		265A35338363E92DCEE714A8 /* libPods-Swish MarketingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swish MarketingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CAD4EC5CD36A691CE7FFAB /* Pods-Swish MarketingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swish MarketingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swish MarketingUITests/Pods-Swish MarketingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A503C20B1EBC3F5300F20E94 /* GMDCircleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDCircleLoader.h; sourceTree = "<group>"; };
+		A503C20C1EBC3F5300F20E94 /* GMDCircleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDCircleLoader.m; sourceTree = "<group>"; };
+		A517F2F71EADCFF7005E161F /* EnterLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterLocationController.h; sourceTree = "<group>"; };
+		A517F2F81EADCFF7005E161F /* EnterLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterLocationController.m; sourceTree = "<group>"; };
+		A547AB841E9D04EF00E3DDAF /* BusinessName_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessName_Controller.h; sourceTree = "<group>"; };
+		A547AB851E9D04EF00E3DDAF /* BusinessName_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessName_Controller.m; sourceTree = "<group>"; };
+		A550833B1E9B4DA700025449 /* Settings_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings_Controller.h; sourceTree = "<group>"; };
+		A550833C1E9B4DA700025449 /* Settings_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings_Controller.m; sourceTree = "<group>"; };
+		A550833E1E9BB29300025449 /* ChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatController.h; sourceTree = "<group>"; };
+		A550833F1E9BB29300025449 /* ChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
+		A55BF3311E9F448C0080F15E /* ActiveCampaingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveCampaingController.h; sourceTree = "<group>"; };
+		A55BF3321E9F448C0080F15E /* ActiveCampaingController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; fileEncoding = 4; path = ActiveCampaingController.m; sourceTree = "<group>"; };
+		A55BF3351E9F47F90080F15E /* ActiveCampainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveCampainCell.h; sourceTree = "<group>"; };
+		A55BF3361E9F47F90080F15E /* ActiveCampainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveCampainCell.m; sourceTree = "<group>"; };
+		A55BF3381E9F56810080F15E /* GmapsDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GmapsDemoController.h; sourceTree = "<group>"; };
+		A55BF3391E9F56810080F15E /* GmapsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GmapsDemoController.m; sourceTree = "<group>"; };
+		A5822EE41E9F8415002C6163 /* India.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = India.kml; sourceTree = "<group>"; };
+		A5822EE61E9F8456002C6163 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		A5822EE71E9F8456002C6163 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		A58F35F21EA732B1001BA534 /* MainSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSettingsController.h; sourceTree = "<group>"; };
+		A58F35F31EA732B1001BA534 /* MainSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSettingsController.m; sourceTree = "<group>"; };
+		A58F35F51EA735E0001BA534 /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
+		A58F35F61EA735E0001BA534 /* SettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
+		A5B175D11E976BAA00285280 /* Swish Marketing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swish Marketing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B175D51E976BAA00285280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5B175E11E976BAA00285280 /* Swish_Marketing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swish_Marketing.xcdatamodel; sourceTree = "<group>"; };
+		A5B175ED1E976BAB00285280 /* Swish MarketingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swish MarketingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B175F11E976BAB00285280 /* Swish_MarketingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swish_MarketingTests.m; sourceTree = "<group>"; };
+		A5B175F31E976BAB00285280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B175F81E976BAB00285280 /* Swish MarketingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swish MarketingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B175FC1E976BAB00285280 /* Swish_MarketingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swish_MarketingUITests.m; sourceTree = "<group>"; };
+		A5B175FE1E976BAB00285280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B3DE491EBB0F7F008CC96C /* FinalAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalAddressCell.h; sourceTree = "<group>"; };
+		A5B3DE4A1EBB0F7F008CC96C /* FinalAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalAddressCell.m; sourceTree = "<group>"; };
+		A5B89AA51E976E4D00BC5749 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		A5B89AA61E976E4D00BC5749 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A5B89AA71E976E4D00BC5749 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A5B89AAB1E976E9100BC5749 /* RS_PCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RS_PCH.pch; sourceTree = "<group>"; };
+		A5B89AAC1E976E9100BC5749 /* RS_ios_customBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RS_ios_customBlock.h; sourceTree = "<group>"; };
+		A5B89AAD1E976E9100BC5749 /* Json_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Json_Class.h; sourceTree = "<group>"; };
+		A5B89AAE1E976E9100BC5749 /* Json_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Json_Class.m; sourceTree = "<group>"; };
+		A5B89AAF1E976E9100BC5749 /* App_Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = App_Header.xib; sourceTree = "<group>"; };
+		A5B89AB01E976E9100BC5749 /* App_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header.h; sourceTree = "<group>"; };
+		A5B89AB11E976E9100BC5749 /* App_Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App_Header.m; sourceTree = "<group>"; };
+		A5B89AB21E976E9100BC5749 /* Left_Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Left_Menu.h; sourceTree = "<group>"; };
+		A5B89AB31E976E9100BC5749 /* Left_Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Left_Menu.m; sourceTree = "<group>"; };
+		A5B89AB41E976E9100BC5749 /* Left_Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Left_Menu.xib; sourceTree = "<group>"; };
+		A5B89AB51E976E9100BC5749 /* Tutotial_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutotial_ViewController.h; sourceTree = "<group>"; };
+		A5B89AB61E976E9100BC5749 /* Tutotial_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutotial_ViewController.m; sourceTree = "<group>"; };
+		A5B89AB71E976E9100BC5749 /* Login_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login_ViewController.h; sourceTree = "<group>"; };
+		A5B89AB81E976E9100BC5749 /* Login_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login_ViewController.m; sourceTree = "<group>"; };
+		A5B89AB91E976E9100BC5749 /* Initial_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initial_ViewController.h; sourceTree = "<group>"; };
+		A5B89ABA1E976E9100BC5749 /* Initial_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initial_ViewController.m; sourceTree = "<group>"; };
+		A5B89ABB1E976E9100BC5749 /* Register_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register_ViewController.h; sourceTree = "<group>"; };
+		A5B89ABC1E976E9100BC5749 /* Register_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register_ViewController.m; sourceTree = "<group>"; };
+		A5B89ABD1E976E9100BC5749 /* PromoterRegister_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromoterRegister_ViewController.h; sourceTree = "<group>"; };
+		A5B89ABE1E976E9100BC5749 /* PromoterRegister_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromoterRegister_ViewController.m; sourceTree = "<group>"; };
+		A5B89ABF1E976E9100BC5749 /* Dashboard_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dashboard_Controller.h; sourceTree = "<group>"; };
+		A5B89AC01E976E9100BC5749 /* Dashboard_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dashboard_Controller.m; sourceTree = "<group>"; };
+		A5B89AC11E976E9100BC5749 /* NewCampainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCampainViewController.h; sourceTree = "<group>"; };
+		A5B89AC21E976E9100BC5749 /* NewCampainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCampainViewController.m; sourceTree = "<group>"; };
+		A5B89AC31E976E9100BC5749 /* Social_connectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Social_connectController.h; sourceTree = "<group>"; };
+		A5B89AC41E976E9100BC5749 /* Social_connectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Social_connectController.m; sourceTree = "<group>"; };
+		A5B89AC51E976E9100BC5749 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5B89AC61E976E9100BC5749 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5B89AC71E976E9100BC5749 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A5B89AC81E976E9100BC5749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5B89AC91E976E9100BC5749 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5B89ACA1E976E9100BC5749 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B89ADE1E976FF600BC5749 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = Pods/TwitterKit/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		A5B89AE51E977A4900BC5749 /* ConstantHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantHandle.h; sourceTree = "<group>"; };
+		A5B89AE61E977A5400BC5749 /* InstagramController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramController.h; sourceTree = "<group>"; };
+		A5B89AE71E977A5400BC5749 /* InstagramController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramController.m; sourceTree = "<group>"; };
+		A5BD2F6F1EB9B75300604A16 /* FacebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookController.h; sourceTree = "<group>"; };
+		A5BD2F701EB9B75300604A16 /* FacebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookController.m; sourceTree = "<group>"; };
+		A5CAF1F51EB1C98B00897C02 /* ProductpictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductpictureController.h; sourceTree = "<group>"; };
+		A5CAF1F61EB1C98B00897C02 /* ProductpictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductpictureController.m; sourceTree = "<group>"; };
+		A5CAF1F91EB1C9EA00897C02 /* ProductPicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductPicCell.h; sourceTree = "<group>"; };
+		A5CAF1FA1EB1C9EA00897C02 /* ProductPicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductPicCell.m; sourceTree = "<group>"; };
+		A5DD681D1EB85B4000C5BBFF /* ViewReviews_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewReviews_ViewController.h; sourceTree = "<group>"; };
+		A5DD681E1EB85B4000C5BBFF /* ViewReviews_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReviews_ViewController.m; sourceTree = "<group>"; };
+		A5DD68201EB86B5F00C5BBFF /* Crad_detailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crad_detailsController.h; sourceTree = "<group>"; };
+		A5DD68211EB86B5F00C5BBFF /* Crad_detailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crad_detailsController.m; sourceTree = "<group>"; };
+		A5DD68231EB86BB800C5BBFF /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		A5DD68241EB86BB800C5BBFF /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		A5DDED351EA4A42000CCBB0B /* StateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateCell.h; sourceTree = "<group>"; };
+		A5DDED361EA4A42000CCBB0B /* StateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateCell.m; sourceTree = "<group>"; };
+		A5E796EA1EAF2C4600A9972C /* Land.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Land.storyboard; sourceTree = "<group>"; };
+		A5F39D0A1EA9CE070078F3EF /* CampainDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampainDetailsController.h; sourceTree = "<group>"; };
+		A5F39D0B1EA9CE070078F3EF /* CampainDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampainDetailsController.m; sourceTree = "<group>"; };
+		A5F39D0E1EA9D13B0078F3EF /* SimpleBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBarChart.h; sourceTree = "<group>"; };
+		A5F39D0F1EA9D13B0078F3EF /* SimpleBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBarChart.m; sourceTree = "<group>"; };
+		B571DAF34E92F7A30B95739E /* Pods-Swish MarketingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swish MarketingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swish MarketingUITests/Pods-Swish MarketingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C889EFA3E694A433260525B2 /* Pods-Swish MarketingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swish MarketingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swish MarketingTests/Pods-Swish MarketingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEE12D3E2C06EEDB529771A2 /* Pods-Swish MarketingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swish MarketingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swish MarketingTests/Pods-Swish MarketingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF192D3017A3BA34D11CF60 /* libPods-Swish MarketingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swish MarketingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F69851E36CD82513A3C1F9 /* libPods-Swish Marketing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swish Marketing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5B175CE1E976BAA00285280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B89AA81E976E4D00BC5749 /* Bolts.framework in Frameworks */,
+				A5B89AA91E976E4D00BC5749 /* FBSDKCoreKit.framework in Frameworks */,
+				A5B89AAA1E976E4D00BC5749 /* FBSDKLoginKit.framework in Frameworks */,
+				10404E717FE793F266DA30D1 /* libPods-Swish Marketing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B175EA1E976BAB00285280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B4D0138A2277FA3D01CE20 /* libPods-Swish MarketingTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B175F51E976BAB00285280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810C46459D07E1455F8C2F4D /* libPods-Swish MarketingUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A503C20A1EBC3F4500F20E94 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				A503C20B1EBC3F5300F20E94 /* GMDCircleLoader.h */,
+				A503C20C1EBC3F5300F20E94 /* GMDCircleLoader.m */,
+			);
+			name = Loader;
+			sourceTree = "<group>";
+		};
+		A55BF3341E9F47C30080F15E /* TableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A55BF3351E9F47F90080F15E /* ActiveCampainCell.h */,
+				A55BF3361E9F47F90080F15E /* ActiveCampainCell.m */,
+				A5DDED351EA4A42000CCBB0B /* StateCell.h */,
+				A5DDED361EA4A42000CCBB0B /* StateCell.m */,
+				A58F35F51EA735E0001BA534 /* SettingsCell.h */,
+				A58F35F61EA735E0001BA534 /* SettingsCell.m */,
+				A5DD68231EB86BB800C5BBFF /* CardCell.h */,
+				A5DD68241EB86BB800C5BBFF /* CardCell.m */,
+				A5B3DE491EBB0F7F008CC96C /* FinalAddressCell.h */,
+				A5B3DE4A1EBB0F7F008CC96C /* FinalAddressCell.m */,
+			);
+			name = TableviewCell;
+			sourceTree = "<group>";
+		};
+		A5745F341EC049350076894F /* Catagory Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Catagory Class";
+			sourceTree = "<group>";
+		};
+		A5822EE31E9F83FA002C6163 /* KML fie */ = {
+			isa = PBXGroup;
+			children = (
+				A5822EE61E9F8456002C6163 /* KMLParser.h */,
+				A5822EE71E9F8456002C6163 /* KMLParser.m */,
+				A5822EE41E9F8415002C6163 /* India.kml */,
+			);
+			name = "KML fie";
+			sourceTree = "<group>";
+		};
+		A5B175C81E976BAA00285280 = {
+			isa = PBXGroup;
+			children = (
+				A5B89ADE1E976FF600BC5749 /* TwitterKitResources.bundle */,
+				A5B175D31E976BAA00285280 /* Swish Marketing */,
+				A5B175F01E976BAB00285280 /* Swish MarketingTests */,
+				A5B175FB1E976BAB00285280 /* Swish MarketingUITests */,
+				A5B175D21E976BAA00285280 /* Products */,
+				F10D3D5208F8D1BBE789635D /* Pods */,
+				A9D9AEC9A92E000E02BF6CE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5B175D21E976BAA00285280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B175D11E976BAA00285280 /* Swish Marketing.app */,
+				A5B175ED1E976BAB00285280 /* Swish MarketingTests.xctest */,
+				A5B175F81E976BAB00285280 /* Swish MarketingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B175D31E976BAA00285280 /* Swish Marketing */ = {
+			isa = PBXGroup;
+			children = (
+				A5745F341EC049350076894F /* Catagory Class */,
+				A503C20A1EBC3F4500F20E94 /* Loader */,
+				A5F39D0D1EA9D1210078F3EF /* Graph */,
+				A5822EE31E9F83FA002C6163 /* KML fie */,
+				A55BF3341E9F47C30080F15E /* TableviewCell */,
+				A5CAF1F81EB1C9BD00897C02 /* Collection Cell */,
+				A5B89AE41E977A1700BC5749 /* Instagram Login */,
+				A5B89AE21E97791B00BC5749 /* Left Menu */,
+				A5B89AE11E97790C00BC5749 /* App Header  */,
+				A5B89AE01E97790200BC5749 /* URL Class */,
+				A5B89AE31E97792600BC5749 /* Controller */,
+				A5B89AC51E976E9100BC5749 /* AppDelegate.h */,
+				A5B89AC61E976E9100BC5749 /* AppDelegate.m */,
+				A5B89AC71E976E9100BC5749 /* Main.storyboard */,
+				A5E796EA1EAF2C4600A9972C /* Land.storyboard */,
+				A5B89AC81E976E9100BC5749 /* Assets.xcassets */,
+				A5B89AC91E976E9100BC5749 /* LaunchScreen.storyboard */,
+				A5B89ACA1E976E9100BC5749 /* Info.plist */,
+				A5B175E01E976BAA00285280 /* Swish_Marketing.xcdatamodeld */,
+				A5B175D41E976BAA00285280 /* Supporting Files */,
+			);
+			path = "Swish Marketing";
+			sourceTree = "<group>";
+		};
+		A5B175D41E976BAA00285280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5B175D51E976BAA00285280 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5B175F01E976BAB00285280 /* Swish MarketingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5B175F11E976BAB00285280 /* Swish_MarketingTests.m */,
+				A5B175F31E976BAB00285280 /* Info.plist */,
+			);
+			path = "Swish MarketingTests";
+			sourceTree = "<group>";
+		};
+		A5B175FB1E976BAB00285280 /* Swish MarketingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5B175FC1E976BAB00285280 /* Swish_MarketingUITests.m */,
+				A5B175FE1E976BAB00285280 /* Info.plist */,
+			);
+			path = "Swish MarketingUITests";
+			sourceTree = "<group>";
+		};
+		A5B89AE01E97790200BC5749 /* URL Class */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89AAB1E976E9100BC5749 /* RS_PCH.pch */,
+				A5B89AAC1E976E9100BC5749 /* RS_ios_customBlock.h */,
+				A5B89AAD1E976E9100BC5749 /* Json_Class.h */,
+				A5B89AAE1E976E9100BC5749 /* Json_Class.m */,
+			);
+			name = "URL Class";
+			sourceTree = "<group>";
+		};
+		A5B89AE11E97790C00BC5749 /* App Header  */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89AAF1E976E9100BC5749 /* App_Header.xib */,
+				A5B89AB01E976E9100BC5749 /* App_Header.h */,
+				A5B89AB11E976E9100BC5749 /* App_Header.m */,
+			);
+			name = "App Header ";
+			sourceTree = "<group>";
+		};
+		A5B89AE21E97791B00BC5749 /* Left Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89AB21E976E9100BC5749 /* Left_Menu.h */,
+				A5B89AB31E976E9100BC5749 /* Left_Menu.m */,
+				A5B89AB41E976E9100BC5749 /* Left_Menu.xib */,
+			);
+			name = "Left Menu";
+			sourceTree = "<group>";
+		};
+		A5B89AE31E97792600BC5749 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89AB51E976E9100BC5749 /* Tutotial_ViewController.h */,
+				A5B89AB61E976E9100BC5749 /* Tutotial_ViewController.m */,
+				A5B89AB71E976E9100BC5749 /* Login_ViewController.h */,
+				A5B89AB81E976E9100BC5749 /* Login_ViewController.m */,
+				A5B89AB91E976E9100BC5749 /* Initial_ViewController.h */,
+				A5B89ABA1E976E9100BC5749 /* Initial_ViewController.m */,
+				A5B89ABB1E976E9100BC5749 /* Register_ViewController.h */,
+				A5B89ABC1E976E9100BC5749 /* Register_ViewController.m */,
+				A5B89ABD1E976E9100BC5749 /* PromoterRegister_ViewController.h */,
+				A5B89ABE1E976E9100BC5749 /* PromoterRegister_ViewController.m */,
+				A5B89ABF1E976E9100BC5749 /* Dashboard_Controller.h */,
+				A5B89AC01E976E9100BC5749 /* Dashboard_Controller.m */,
+				A5B89AC11E976E9100BC5749 /* NewCampainViewController.h */,
+				A5B89AC21E976E9100BC5749 /* NewCampainViewController.m */,
+				A5B89AC31E976E9100BC5749 /* Social_connectController.h */,
+				A5B89AC41E976E9100BC5749 /* Social_connectController.m */,
+				A550833B1E9B4DA700025449 /* Settings_Controller.h */,
+				A550833C1E9B4DA700025449 /* Settings_Controller.m */,
+				A550833E1E9BB29300025449 /* ChatController.h */,
+				A550833F1E9BB29300025449 /* ChatController.m */,
+				A547AB841E9D04EF00E3DDAF /* BusinessName_Controller.h */,
+				A547AB851E9D04EF00E3DDAF /* BusinessName_Controller.m */,
+				A55BF3311E9F448C0080F15E /* ActiveCampaingController.h */,
+				A55BF3321E9F448C0080F15E /* ActiveCampaingController.m */,
+				A55BF3381E9F56810080F15E /* GmapsDemoController.h */,
+				A55BF3391E9F56810080F15E /* GmapsDemoController.m */,
+				A58F35F21EA732B1001BA534 /* MainSettingsController.h */,
+				A58F35F31EA732B1001BA534 /* MainSettingsController.m */,
+				A5F39D0A1EA9CE070078F3EF /* CampainDetailsController.h */,
+				A5F39D0B1EA9CE070078F3EF /* CampainDetailsController.m */,
+				A517F2F71EADCFF7005E161F /* EnterLocationController.h */,
+				A517F2F81EADCFF7005E161F /* EnterLocationController.m */,
+				A5CAF1F51EB1C98B00897C02 /* ProductpictureController.h */,
+				A5CAF1F61EB1C98B00897C02 /* ProductpictureController.m */,
+				A5DD681D1EB85B4000C5BBFF /* ViewReviews_ViewController.h */,
+				A5DD681E1EB85B4000C5BBFF /* ViewReviews_ViewController.m */,
+				A5DD68201EB86B5F00C5BBFF /* Crad_detailsController.h */,
+				A5DD68211EB86B5F00C5BBFF /* Crad_detailsController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5B89AE41E977A1700BC5749 /* Instagram Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89AE51E977A4900BC5749 /* ConstantHandle.h */,
+				A5B89AE61E977A5400BC5749 /* InstagramController.h */,
+				A5B89AE71E977A5400BC5749 /* InstagramController.m */,
+				A5BD2F6F1EB9B75300604A16 /* FacebookController.h */,
+				A5BD2F701EB9B75300604A16 /* FacebookController.m */,
+			);
+			name = "Instagram Login";
+			sourceTree = "<group>";
+		};
+		A5CAF1F81EB1C9BD00897C02 /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5CAF1F91EB1C9EA00897C02 /* ProductPicCell.h */,
+				A5CAF1FA1EB1C9EA00897C02 /* ProductPicCell.m */,
+			);
+			name = "Collection Cell";
+			sourceTree = "<group>";
+		};
+		A5F39D0D1EA9D1210078F3EF /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				A5F39D0E1EA9D13B0078F3EF /* SimpleBarChart.h */,
+				A5F39D0F1EA9D13B0078F3EF /* SimpleBarChart.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		A9D9AEC9A92E000E02BF6CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89AA51E976E4D00BC5749 /* Bolts.framework */,
+				A5B89AA61E976E4D00BC5749 /* FBSDKCoreKit.framework */,
+				A5B89AA71E976E4D00BC5749 /* FBSDKLoginKit.framework */,
+				F7F69851E36CD82513A3C1F9 /* libPods-Swish Marketing.a */,
+				EFF192D3017A3BA34D11CF60 /* libPods-Swish MarketingTests.a */,
+				265A35338363E92DCEE714A8 /* libPods-Swish MarketingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F10D3D5208F8D1BBE789635D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11EBA64908C454D9430FC4C9 /* Pods-Swish Marketing.debug.xcconfig */,
+				18E7AFB2F1C19E7142A59CEA /* Pods-Swish Marketing.release.xcconfig */,
+				CEE12D3E2C06EEDB529771A2 /* Pods-Swish MarketingTests.debug.xcconfig */,
+				C889EFA3E694A433260525B2 /* Pods-Swish MarketingTests.release.xcconfig */,
+				B571DAF34E92F7A30B95739E /* Pods-Swish MarketingUITests.debug.xcconfig */,
+				69CAD4EC5CD36A691CE7FFAB /* Pods-Swish MarketingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B175D01E976BAA00285280 /* Swish Marketing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B176011E976BAB00285280 /* Build configuration list for PBXNativeTarget "Swish Marketing" */;
+			buildPhases = (
+				0D6766613190B9057CEC21CB /* [CP] Check Pods Manifest.lock */,
+				A5B175CD1E976BAA00285280 /* Sources */,
+				A5B175CE1E976BAA00285280 /* Frameworks */,
+				A5B175CF1E976BAA00285280 /* Resources */,
+				CB75A5AEB9CB0A01897BE2D5 /* [CP] Embed Pods Frameworks */,
+				158CD7C90C7C6FFF29C5203E /* [CP] Copy Pods Resources */,
+				A5B89ADD1E976FD600BC5749 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swish Marketing";
+			productName = "Swish Marketing";
+			productReference = A5B175D11E976BAA00285280 /* Swish Marketing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5B175EC1E976BAB00285280 /* Swish MarketingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B176041E976BAB00285280 /* Build configuration list for PBXNativeTarget "Swish MarketingTests" */;
+			buildPhases = (
+				E9154791524830A26DD33C38 /* [CP] Check Pods Manifest.lock */,
+				A5B175E91E976BAB00285280 /* Sources */,
+				A5B175EA1E976BAB00285280 /* Frameworks */,
+				A5B175EB1E976BAB00285280 /* Resources */,
+				F5898A2EEF12AE67AB356B32 /* [CP] Embed Pods Frameworks */,
+				83B467405CC0FE746B2B2A35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B175EF1E976BAB00285280 /* PBXTargetDependency */,
+			);
+			name = "Swish MarketingTests";
+			productName = "Swish MarketingTests";
+			productReference = A5B175ED1E976BAB00285280 /* Swish MarketingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5B175F71E976BAB00285280 /* Swish MarketingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B176071E976BAB00285280 /* Build configuration list for PBXNativeTarget "Swish MarketingUITests" */;
+			buildPhases = (
+				7BF31C4C125177238A31D402 /* [CP] Check Pods Manifest.lock */,
+				A5B175F41E976BAB00285280 /* Sources */,
+				A5B175F51E976BAB00285280 /* Frameworks */,
+				A5B175F61E976BAB00285280 /* Resources */,
+				1D8E527E89491F61AF5DD46A /* [CP] Embed Pods Frameworks */,
+				27602DA691FA5FD0C253D363 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B175FA1E976BAB00285280 /* PBXTargetDependency */,
+			);
+			name = "Swish MarketingUITests";
+			productName = "Swish MarketingUITests";
+			productReference = A5B175F81E976BAB00285280 /* Swish MarketingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5B175C91E976BAA00285280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kausik Jati";
+				TargetAttributes = {
+					A5B175D01E976BAA00285280 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K22GQFS8BW;
+						ProvisioningStyle = Manual;
+					};
+					A5B175EC1E976BAB00285280 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K22GQFS8BW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5B175D01E976BAA00285280;
+					};
+					A5B175F71E976BAB00285280 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K22GQFS8BW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5B175D01E976BAA00285280;
+					};
+				};
+			};
+			buildConfigurationList = A5B175CC1E976BAA00285280 /* Build configuration list for PBXProject "Swish Marketing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5B175C81E976BAA00285280;
+			productRefGroup = A5B175D21E976BAA00285280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5B175D01E976BAA00285280 /* Swish Marketing */,
+				A5B175EC1E976BAB00285280 /* Swish MarketingTests */,
+				A5B175F71E976BAB00285280 /* Swish MarketingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5B175CF1E976BAA00285280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5822EE51E9F8415002C6163 /* India.kml in Resources */,
+				A5B89AD91E976E9100BC5749 /* Main.storyboard in Resources */,
+				A5E796EB1EAF2C4600A9972C /* Land.storyboard in Resources */,
+				A5B89ADF1E976FF600BC5749 /* TwitterKitResources.bundle in Resources */,
+				A5B89ACC1E976E9100BC5749 /* App_Header.xib in Resources */,
+				A5B89ADA1E976E9100BC5749 /* Assets.xcassets in Resources */,
+				A5B89ADB1E976E9100BC5749 /* LaunchScreen.storyboard in Resources */,
+				A5B89ACF1E976E9100BC5749 /* Left_Menu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B175EB1E976BAB00285280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B175F61E976BAB00285280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D6766613190B9057CEC21CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		158CD7C90C7C6FFF29C5203E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swish Marketing/Pods-Swish Marketing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D8E527E89491F61AF5DD46A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swish MarketingUITests/Pods-Swish MarketingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27602DA691FA5FD0C253D363 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swish MarketingUITests/Pods-Swish MarketingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BF31C4C125177238A31D402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83B467405CC0FE746B2B2A35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swish MarketingTests/Pods-Swish MarketingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B89ADD1E976FD600BC5749 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run f69b62d67d80f017a5aa22501fa247a9477c9362 25b60abc774530ea02fe069112c2e5acfbcfe32bd9c71956a1ba3e86bc2a3675";
+		};
+		CB75A5AEB9CB0A01897BE2D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swish Marketing/Pods-Swish Marketing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9154791524830A26DD33C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5898A2EEF12AE67AB356B32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swish MarketingTests/Pods-Swish MarketingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B175CD1E976BAA00285280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD681F1EB85B4000C5BBFF /* ViewReviews_ViewController.m in Sources */,
+				A5B89ACD1E976E9100BC5749 /* App_Header.m in Sources */,
+				A5CAF1F71EB1C98B00897C02 /* ProductpictureController.m in Sources */,
+				A55BF33A1E9F56810080F15E /* GmapsDemoController.m in Sources */,
+				A5F39D0C1EA9CE070078F3EF /* CampainDetailsController.m in Sources */,
+				A5B89AE81E977A5400BC5749 /* InstagramController.m in Sources */,
+				A5B89AD71E976E9100BC5749 /* Social_connectController.m in Sources */,
+				A55083401E9BB29300025449 /* ChatController.m in Sources */,
+				A5B89ACB1E976E9100BC5749 /* Json_Class.m in Sources */,
+				A5DD68251EB86BB800C5BBFF /* CardCell.m in Sources */,
+				A550833D1E9B4DA700025449 /* Settings_Controller.m in Sources */,
+				A5B3DE4B1EBB0F7F008CC96C /* FinalAddressCell.m in Sources */,
+				A5822EE81E9F8456002C6163 /* KMLParser.m in Sources */,
+				A5B89AD01E976E9100BC5749 /* Tutotial_ViewController.m in Sources */,
+				A5B89AD61E976E9100BC5749 /* NewCampainViewController.m in Sources */,
+				A517F2F91EADCFF7005E161F /* EnterLocationController.m in Sources */,
+				A5B89AD51E976E9100BC5749 /* Dashboard_Controller.m in Sources */,
+				A5CAF1FB1EB1C9EA00897C02 /* ProductPicCell.m in Sources */,
+				A5B89AD81E976E9100BC5749 /* AppDelegate.m in Sources */,
+				A5F39D101EA9D13B0078F3EF /* SimpleBarChart.m in Sources */,
+				A5DDED371EA4A42000CCBB0B /* StateCell.m in Sources */,
+				A5B89AD21E976E9100BC5749 /* Initial_ViewController.m in Sources */,
+				A58F35F71EA735E0001BA534 /* SettingsCell.m in Sources */,
+				A5B89AD11E976E9100BC5749 /* Login_ViewController.m in Sources */,
+				A5DD68221EB86B5F00C5BBFF /* Crad_detailsController.m in Sources */,
+				A5B89AD31E976E9100BC5749 /* Register_ViewController.m in Sources */,
+				A5BD2F711EB9B75300604A16 /* FacebookController.m in Sources */,
+				A5B89ACE1E976E9100BC5749 /* Left_Menu.m in Sources */,
+				A5B175D61E976BAA00285280 /* main.m in Sources */,
+				A503C20D1EBC3F5300F20E94 /* GMDCircleLoader.m in Sources */,
+				A55BF3371E9F47F90080F15E /* ActiveCampainCell.m in Sources */,
+				A5B175E21E976BAA00285280 /* Swish_Marketing.xcdatamodeld in Sources */,
+				A547AB861E9D04EF00E3DDAF /* BusinessName_Controller.m in Sources */,
+				A58F35F41EA732B1001BA534 /* MainSettingsController.m in Sources */,
+				A5B89AD41E976E9100BC5749 /* PromoterRegister_ViewController.m in Sources */,
+				A55BF3331E9F448C0080F15E /* ActiveCampaingController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B175E91E976BAB00285280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B175F21E976BAB00285280 /* Swish_MarketingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B175F41E976BAB00285280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B175FD1E976BAB00285280 /* Swish_MarketingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5B175EF1E976BAB00285280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B175D01E976BAA00285280 /* Swish Marketing */;
+			targetProxy = A5B175EE1E976BAB00285280 /* PBXContainerItemProxy */;
+		};
+		A5B175FA1E976BAB00285280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B175D01E976BAA00285280 /* Swish Marketing */;
+			targetProxy = A5B175F91E976BAB00285280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5B175FF1E976BAB00285280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K22GQFS8BW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2278e2b5-840f-4b03-a1bd-6c03c28326c8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5B176001E976BAB00285280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K22GQFS8BW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2278e2b5-840f-4b03-a1bd-6c03c28326c8";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B176021E976BAB00285280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11EBA64908C454D9430FC4C9 /* Pods-Swish Marketing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				DEVELOPMENT_TEAM = K22GQFS8BW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics\"",
+					"\"${PODS_ROOT}/Fabric\"",
+					"\"${PODS_ROOT}/TwitterKit\"",
+					"\"$(SRCROOT)/FacebookSDK\"",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
+				INFOPLIST_FILE = "Swish Marketing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esolz.swishmarketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2278e2b5-840f-4b03-a1bd-6c03c28326c8";
+				PROVISIONING_PROFILE_SPECIFIER = SwishMarketing_Addhoc;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5B176031E976BAB00285280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E7AFB2F1C19E7142A59CEA /* Pods-Swish Marketing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ESolz Technologies Pvt Ltd (K22GQFS8BW)";
+				DEVELOPMENT_TEAM = K22GQFS8BW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics\"",
+					"\"${PODS_ROOT}/Fabric\"",
+					"\"${PODS_ROOT}/TwitterKit\"",
+					"\"$(SRCROOT)/FacebookSDK\"",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
+				INFOPLIST_FILE = "Swish Marketing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esolz.swishmarketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2278e2b5-840f-4b03-a1bd-6c03c28326c8";
+				PROVISIONING_PROFILE_SPECIFIER = SwishMarketing_Addhoc;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A5B176051E976BAB00285280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE12D3E2C06EEDB529771A2 /* Pods-Swish MarketingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swish MarketingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kausik.Swish-MarketingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swish Marketing.app/Swish Marketing";
+			};
+			name = Debug;
+		};
+		A5B176061E976BAB00285280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C889EFA3E694A433260525B2 /* Pods-Swish MarketingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swish MarketingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kausik.Swish-MarketingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swish Marketing.app/Swish Marketing";
+			};
+			name = Release;
+		};
+		A5B176081E976BAB00285280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B571DAF34E92F7A30B95739E /* Pods-Swish MarketingUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Swish MarketingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kausik.Swish-MarketingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swish Marketing";
+			};
+			name = Debug;
+		};
+		A5B176091E976BAB00285280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CAD4EC5CD36A691CE7FFAB /* Pods-Swish MarketingUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Swish MarketingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kausik.Swish-MarketingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swish Marketing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5B175CC1E976BAA00285280 /* Build configuration list for PBXProject "Swish Marketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B175FF1E976BAB00285280 /* Debug */,
+				A5B176001E976BAB00285280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B176011E976BAB00285280 /* Build configuration list for PBXNativeTarget "Swish Marketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B176021E976BAB00285280 /* Debug */,
+				A5B176031E976BAB00285280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B176041E976BAB00285280 /* Build configuration list for PBXNativeTarget "Swish MarketingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B176051E976BAB00285280 /* Debug */,
+				A5B176061E976BAB00285280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B176071E976BAB00285280 /* Build configuration list for PBXNativeTarget "Swish MarketingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B176081E976BAB00285280 /* Debug */,
+				A5B176091E976BAB00285280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5B175E01E976BAA00285280 /* Swish_Marketing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5B175E11E976BAA00285280 /* Swish_Marketing.xcdatamodel */,
+			);
+			currentVersion = A5B175E11E976BAA00285280 /* Swish_Marketing.xcdatamodel */;
+			path = Swish_Marketing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5B175C91E976BAA00285280 /* Project object */;
+}
